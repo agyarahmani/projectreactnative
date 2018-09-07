@@ -22,7 +22,9 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-      <Judul/>
+      <Judul Judul="BIODATA"/>
+      <Judul Judul="LOGIN"/>
+      <Judul Judul="FORM"/>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>NAMA : Agya Rahmani Divasasri</Text>
         <Text style={styles.instructions}>KELAS : XI RPL 1</Text>
